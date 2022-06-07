@@ -1,0 +1,41 @@
+/* Starting Of Home Page */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:ital@1&family=Oswald:wght@600;700&display=swap');
+#nav2 a{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: .1rem;
+}
+@media (max-width:1024px) {
+  #nav2 a{
+   letter-spacing: 0em;
+   font-size: small;
+  }
+}
+@media (max-width:912px) {
+  #nav2 a{
+   letter-spacing: .1em;
+   font-size:larger;
+  }
+}
+#nav2 {
+  box-shadow:.2rem .2rem .8rem black;
+  background-color: white;
+}
+.bg-color{
+    background-color: black !important;
+}
+.dropdown-menu{
+    width: max-content;
+    background-color: white !important;
+  }
+  .dropdown-menu a:hover{
+    color: black !important;
+    background-color: white !important;
+    font-weight: bolder;
+  }
+  .mydropdown:hover .dropdown-menu{
+    display: block;
+  }
+
+
+
